@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mingyue Liang’s EAP II Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('images/2.jpg') no-repeat center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    header h1,
+    header p {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+    }
+
+    nav {
+      background: #188FA7;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 3em 5%;
+    }
+
+    .section-light {
+      background: #f9f9f9;
+    }
+
+    h2 {
+      color: #E07A5F;
+      margin-bottom: 0.5em;
+    }
+
+    h3 {
+      color: #188FA7;
+      margin-bottom: 0.5em;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 1.5em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2em;
+    }
+
+    footer {
+      background: #333;
+      color: #eee;
+      text-align: center;
+      padding: 2em;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.7em 1.5em;
+      background: #E07A5F;
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background: #d36c53;
+    }
+
+    blockquote {
+      font-style: italic;
+      border-left: 4px solid #E07A5F;
+      margin: 1em 0;
+      padding-left: 1em;
+      color: #555;
+    }
+
+    .about-container {
+      display: flex;
+      align-items: center;
+      gap: 2em;
+      flex-wrap: wrap;
+    }
+
+    .about-container img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-text {
+      max-width: 600px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Mingyue Liang’s Digital Showcase</h1>
+      <p>Crafting Voice, Creativity, and Insight in EAP II</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#project1">Project 1</a>
+    <a href="#project2">Project 2</a>
+    <a href="#project3">Project 3</a>
+    <a href="#additional">Extras</a>
+    <a href="#multimedia">Gallery</a>
+    <a href="#reflection">Reflection</a>
+  </nav>
+  <section id="about" class="section-light">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="images/1.jpg" alt="Mingyue Liang">
+      <div class="about-text">
+        <p><strong>Name:</strong> Mingyue Liang</p>
+        <p><strong>From:</strong> Chengdu, China</p>
+        <p><strong>Institution:</strong> Rutgers University (Freshman)</p>
+        <p><strong>Major:</strong> Public Health</p>
+        <p><strong>Interests:</strong> Fitness, Swimming, Surfing</p>
+      </div>
+    </div>
+  </section>
+  <section id="project1">
+    <h2>Project 1: The Power of Language</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/2.jpg" alt="Language">
+        <div class="card-content">
+          <h3>Finding My Voice</h3>
+          <p>I thought my "broken English" was a barrier—until I realized it was my superpower. By embracing the
+            Englishes I grew up with, I reclaimed my confidence and reshaped how I connect with others.</p>
+          <blockquote>“I began to write stories using all the Englishes I grew up with.” – Amy Tan</blockquote>
+          <a href="Liang EAP 2 project (with pic final version).docx" class="button">Download Worksheet</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project2" class="section-light">
+    <h2>Project 2: Creativity in a Global World</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/3.jpg" alt="Creativity">
+        <div class="card-content">
+          <h3>When Ideas Collide</h3>
+          <p>From Steve Johnson’s “liquid networks” to AI as a co-creator, I explored how creativity thrives at the
+            intersection of culture, diversity, and technology.</p>
+          <blockquote>“AI fundamentally acts as a partner in creative processes…” – John Markoff</blockquote>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/4.jpg" alt="ChatGPT Case Study">
+        <div class="card-content">
+          <h3>Revision Highlights</h3>
+          <ul>
+            <li>Added ChatGPT narrative design case study</li>
+            <li>Smoothed transitions between sources</li>
+            <li>Enhanced MLA formatting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project3">
+    <h2>Project 3: Miss Representation Analysis</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/5.jpg" alt="Miss Representation">
+        <div class="card-content">
+          <h3>Documentary Deep Dive</h3>
+          <p>I evaluated the documentary’s authority, relevance, and timeliness to understand how media stereotypes
+            shape public perceptions of women.</p>
+          <a href="The Portrayal of Women in Film and Media.pptx" class="button">Download Assessment</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="additional" class="section-light">
+    <h2>Extras: Additional Assignments</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/3.jpg" alt="Worksheet">
+        <div class="card-content">
+          <h3>Mother Tongue Worksheet</h3>
+          <p>Interactive questions guiding my exploration of language power and identity.</p>
+          <a href="Mingyue Liang Mother Tongue-Worksheet.docx" class="button">Download</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/3.jpg" alt="Source Assessment">
+        <div class="card-content">
+          <h3>Source Assessment</h3>
+          <p>Breaking down <em>Miss Representation</em> through criteria of authority and relevance.</p>
+          <a href="Spring 25 EAP II Project 3 Step 3.docx" class="button">Download</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/3.jpg" alt="Discussion">
+        <div class="card-content">
+          <h3>Nostalgia & Identity</h3>
+          <p>“Because it reminds me of who I am, who I chose to be, what I decide to do with my life, and why.” –
+            Gallarde</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="multimedia">
+    <h2>Multimedia Gallery</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/1.jpg" alt="Personal Photo">
+        <div class="card-content">
+          <p>Friendly snapshot from campus life.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/4.jpg" alt="Waffle Snack">
+        <div class="card-content">
+          <p>Taking a break with my favorite waffle treat.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/3.jpg" alt="Friends">
+        <div class="card-content">
+          <p>Mirror selfie with friends at a campus event.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/2.jpg" alt="Surfing">
+        <div class="card-content">
+          <p>Dreaming of my next surf trip.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/5.jpg" alt="Beach">
+        <div class="card-content">
+          <p>Relaxing beach sunset moment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="reflection" class="section-light">
+    <h2>Final Reflection</h2>
+    <p>This journey turned me from a hesitant voice into a confident storyteller. I’ve learned to weave my bilingual
+      heritage into clear expression, to embrace feedback for continual growth, and to harness digital tools for
+      creative collaboration. I look forward to adding new chapters to this evolving portfolio as I continue my academic
+      adventure at Rutgers.</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Mingyue Liang | <a href="#top" style="color:#E07A5F;">Back to top</a></p>
+  </footer>
+</body>
+
+</html>
